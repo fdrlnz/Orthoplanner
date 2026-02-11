@@ -4,7 +4,7 @@
   "description": "Open Source Orthognathic Surgery Planning Software",
   "author": "OrthoPlanner Contributors",
   "license": "Apache-2.0",
-  "main": "src/electron/main.js",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:electron\"",
     "dev:renderer": "vite",
