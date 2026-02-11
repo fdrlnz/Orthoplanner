@@ -1,0 +1,38 @@
+# Dipendenze
+node_modules/
+python/__pycache__/
+*.pyc
+
+# Build output
+dist/
+out/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Electron builder
+release/
+
+# Test
+coverage/
+
+# DICOM e dati paziente (mai nel repo!)
+*.dcm
+patient-data/
